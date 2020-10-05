@@ -146,3 +146,7 @@ Essa parte é realmente importante para ir pra próxima etapa
 Prezamos muito pela usabilidade do sistema, então onde você achar que cabe uma facilidade para o uso do sistema, manda bala!
 
 Por exemplo: Após colocar o CEP e preencher todos os campos de endereço, mude o foco do cursor para o campo de número, para que o usuário não precise tirar a mão do teclado :)
+
+## Envio
+
+Aplicação pode ser enviado via link do Bitbucket.
