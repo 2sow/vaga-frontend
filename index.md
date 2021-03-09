@@ -1,14 +1,14 @@
 # Vaga de front-end/mobile na 2SOW
 
-## **O desafio para a vaga é um sistema de cadastro de usuários**
+## **O desafio para a vaga é um sistema de cadastro de clientes**
 
 Esse sistema deverá conter
 
 - Uma tela de login, que redirecionará para a listagem
 
-- Uma tela com um formulário para inserir/editar um usuário
+- Uma tela com um formulário para inserir/editar um cliente
 
-- Uma tela de listagem dos usuários
+- Uma tela de listagem dos clientes
 
 - Um topbar/navbar que estará fixo nas telas acima, com um nome bem criativo para seu sistema e dois botões de navegação, um para cada tela acima citada. Também deverá ter uma forma de logout, jogando o usuário pra tela de login
 
@@ -55,10 +55,13 @@ Apague o conteúdo do arquivo e cole o seguinte lá:
 ```js
   {
     "usuarios": []
+  },
+  {
+    "clientes": []
   }
 ```
 
-O endpoint que você fará o GET, POST, PUT e DELETE será: `http://localhost:5000/usuarios`
+O endpoint que você fará o GET, POST, PUT e DELETE será: `http://localhost:5000/clientes`
 
 Para rodar o servidor, use o comando:
 
@@ -71,6 +74,8 @@ Não é necessário (nem recomendado) criar um backend, pois a vaga é 100% fron
 ---
 
 ## Sobre a tela de login
+
+*O usuário podera ser fixado direito no `json-server` ou se preferir, criar uma tela para cadastro do mesmo.
 
 Deverá ter um campo email e um campo de senha
 
