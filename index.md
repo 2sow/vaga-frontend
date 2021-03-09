@@ -54,7 +54,12 @@ Apague o conteúdo do arquivo e cole o seguinte lá:
 
 ```js
   {
-    "usuarios": []
+    "usuarios": [
+      {
+        "email":"teste@emaill.com.br",
+        "password": "123456"
+      }
+    ]
   },
   {
     "clientes": []
@@ -74,8 +79,6 @@ Não é necessário (nem recomendado) criar um backend, pois a vaga é 100% fron
 ---
 
 ## Sobre a tela de login
-
-*O usuário podera ser fixado direito no `json-server` ou se preferir, criar uma tela para cadastro do mesmo.
 
 Deverá ter um campo email e um campo de senha
 
